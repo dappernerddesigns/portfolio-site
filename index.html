@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Nunito+Sans:wght@400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/nav.css">
+    <script src="../scripts/app.js" defer></script>
+    <title>Dapper Nerd Designs</title>
+</head>
+
+<body>
+
+    <nav class="navigation" role="navigation">
+        <div class="main-menu">
+
+            <a href="../index.html">
+                <img src="/assets/DN-logo.svg" class="nav-logo" id="dnLogo" />
+                <h2>Dapper Nerd Designs</h2>
+            </a>
+            <a href="https://github.com/dappernerddesigns" target="_blank">
+                <img src="/assets/icons/green/githubIcon.svg" class="nav-icon" id="github-icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/verity-gregory/" target="_blank">
+                <img src="/assets/icons/green/linkedIn.svg" class="nav-icon" id="linkedIn-icon" />
+            </a>
+            <a href="mailto:dappernerd.designs@gmail.com?subject=Project enquiry">
+                <img src="/assets/icons/green/contact.svg" class="nav-icon" id="mail-icon" />
+            </a>
+        </div>
+        <div class="nav-links">
+
+            <a href="../index.html#front-end">
+                <h2>Front End</h2>
+            </a>
+            <a href="../index.html#back-end">
+                <h2>Back End</h2>
+            </a>
+
+            <a href="../index.html#consultation">
+                <h2>Consultation</h2>
+            </a>
+
+            <button class="random-btn" onClick="setRandomTheme()" aria-label="site theme randomiser"><img
+                    src="/assets/icons/green/dice-solid.svg" id="dice-icon" /></button>
+        </div>
+
+        <div id="mobile-links">
+            <a href="../index.html#home" onclick="showMenu()">
+                <h3>Home</h3>
+            </a>
+
+            <a href="../index.html#front-end" onclick="showMenu()">
+                <h3>Front End</h3>
+            </a>
+            <a href="../index.html#back-end" onclick="showMenu()">
+                <h3>Back End</h3>
+            </a>
+
+            <a href="../index.html#consultation" onclick="showMenu()">
+                <h3>Consultation</h3>
+            </a>
+            <a href="../index.html#about" onclick="showMenu()">
+                <h3>About</h3>
+            </a>
+            <div class="mobile-icon-array">
+
+
+                <a href="https://github.com/dappernerddesigns" target="_blank">
+                    <img src="/assets/icons/green/githubIcon.svg" class="nav-icon" id="github-icon-mobile" />
+                </a>
+                <a href="https://www.linkedin.com/in/verity-gregory/" target="_blank">
+                    <img src="/assets/icons/green/linkedIn.svg" class="nav-icon" id="linkedIn-icon-mobile" />
+                </a>
+                <a href="mailto:dappernerd.designs@gmail.com?subject=Project enquiry">
+                    <img src="/assets/icons/green/contact.svg" class="nav-icon" id="mail-icon-mobile" />
+                </a>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <button class="mobile-menu" onclick="showMenu()">
+                <img src="/assets/icons/green/menu.svg" id="mobile-menu" />
+            </button>
+            <a href="../index.html">
+
+                <img src="/assets/DN-logo.svg" class="nav-logo" id="dnLogoMobile" />
+            </a>
+            <button class="mobile-menu" onclick="setRandomTheme()" aria-label="site theme randomiser">
+                <img src="/assets/icons/green/dice-solid.svg" id="mobile-dice" />
+            </button>
+        </div>
+    </nav>
+
+
+    <section class="home-screen">
+
+        <!-- Home -->
+        <section class="home-page" id="home">
+            <div class="title-bar">
+                <div class="button-wrapper">
+                    <div class="title-button close"></div>
+                    <div class="title-button min"></div>
+                    <div class="title-button full"></div>
+                </div>
+
+                <div class="tabs">
+                    <a href="#home" class="tab" id="active">
+                        <h3>Home</h3>
+                    </a>
+                    <a href="#front-end" class="tab">
+                        <h3 class="inactive">Front End</h3>
+                    </a>
+                    <a href="#back-end" class="tab">
+                        <h3 class="inactive">Back End</h3>
+                    </a>
+                    <a href="#consultation" class="tab">
+                        <h3 class="inactive">Consultation</h3>
+                    </a>
+                    <a href="#about" class="tab">
+                        <h3 class="inactive">About</h3>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="window">
+                <h1 class="home-header">Dapper Nerd Designs</h1>
+                <div class="home-card">
+                    <p>The designer behind the glasses, Verity is a full stack developer with experience across several
+                        languages, tools and libraries. </p>
+                    <h3 class="home-header">Languages:</h3>
+                    <ul>
+                        <li>JavaScript, Jest for unit testing.</li>
+                        <li>Python, Pytest for unit testing.</li>
+                        <li>PSQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <h3 class="home-header">Tools:</h3>
+                    <ul>
+                        <li>React & React Native</li>
+                        <li>Tailwind</li>
+                        <li>Bootstrap</li>
+                        <li>Firebase</li>
+                        <li>AWS</li>
+                    </ul>
+                </div>
+                <section class="projects">
+
+                    <h3 class="home-header">My current projects:</h3>
+                    <div class="home-proj-card">
+                        <a href="./project_pages/secret_santa.html"><img src="./assets/hand with gift_angle.png"
+                                class="project-thumb" /></a>
+                        <div>
+                            <a href="./project_pages/secret_santa.html">
+                                <h3 class="home-header">Secret Santa</h3>
+                            </a>
+                            <p>A full stack application using Firebase and React to create a browser based app for
+                                creating
+                                and
+                                managing
+                                Secret Santa groups</p>
+                        </div>
+
+                    </div>
+                    <div class="home-proj-card">
+                        <a href="./project_pages/bs-spicery.html"><img
+                                src="https://images.unsplash.com/photo-1543198432-a20fa3055570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                class="project-thumb" /></a>
+                        <div>
+                            <a href="./project_pages/bs-spicery.html">
+                                <h3 class="home-header">B's Spicery</h3>
+                            </a>
+                            <p>A psql express server for a dummy online store where customers can purchase ingredients,
+                                meal kits and store recipe cards.</p>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+        </section>
+        <!-- Font End -->
+        <section class="home-page" id="front-end">
+            <div class="title-bar">
+                <div class="button-wrapper">
+                    <div class="title-button close"></div>
+                    <div class="title-button min"></div>
+                    <div class="title-button full"></div>
+                </div>
+
+                <div class="tabs">
+                    <a href="#home" class="tab">
+                        <h3 class="inactive">Home</h3>
+                    </a>
+                    <a href="#front-end" class="tab" id="active">
+                        <h3>Front End</h3>
+                    </a>
+                    <a href="#back-end" class="tab">
+                        <h3 class="inactive">Back End</h3>
+                    </a>
+                    <a href="#consultation" class="tab">
+                        <h3 class="inactive">Consultation</h3>
+                    </a>
+                    <a href="#about" class="tab">
+                        <h3 class="inactive">About</h3>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="window">
+                <h1>Front End Projects</h1>
+                <div class="card-wrapper">
+                    <div class="project-card">
+                        <a href="/project_pages/secret_santa.html">
+                            <img src="./assets/hand with gift_angle.png" class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Secret Santa</h3>
+                            <p>A React app built with Firebase back end for creating and managing Secret Santa groups.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="/project_pages/games.html">
+                            <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+                                class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Games!</h3>
+                            <p>If you're bored, hop on over for some browser based fun.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="/project_pages/colouriser.html">
+                            <img src="https://images.unsplash.com/photo-1541723011216-c57eaed19919?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                                class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Colouriser</h3>
+                            <p>A single page app to be used on a tablet for paper sample testing. Built with vanilla
+                                JavaScript on a
+                                single html page.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="/project_pages/colour_brain.html">
+                            <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                                class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Colour Brain</h3>
+                            <p>A single player clone of the popular card game from Big Potato Games. Built in React.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="project_pages/nc-games.html">
+                            <img src="https://images.unsplash.com/photo-1629760946220-5693ee4c46ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Northcoders Games Front End</h3>
+                            <p>A front end built in React using my psql server while studying with Northcoders</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Back End -->
+        <section class="home-page" id="back-end">
+            <div class="title-bar">
+                <div class="button-wrapper">
+                    <div class="title-button close"></div>
+                    <div class="title-button min"></div>
+                    <div class="title-button full"></div>
+                </div>
+
+                <div class="tabs">
+                    <a href="#home" class="tab">
+                        <h3 class="inactive">Home</h3>
+                    </a>
+                    <a href="#front-end" class="tab">
+                        <h3 class="inactive">Front End</h3>
+                    </a>
+                    <a href="#back-end" class="tab" id="active">
+                        <h3>Back End</h3>
+                    </a>
+                    <a href="#consultation" class="tab">
+                        <h3 class="inactive">Consultation</h3>
+                    </a>
+                    <a href="#about" class="tab">
+                        <h3 class="inactive">About</h3>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="window">
+                <h1>Back End Projects</h1>
+                <div class="card-wrapper">
+                    <div class="project-card">
+                        <a href="./project_pages/bs-spicery.html"><img
+                                src="https://images.unsplash.com/photo-1543198432-a20fa3055570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                class="project-thumb" /></a>
+                        <div>
+                            <a href="./project_pages/bs-spicery.html">
+                                <h3 class="project-header">B's Spicery</h3>
+                            </a>
+                            <p>A psql express server for a dummy online store where customers can purchase ingredients,
+                                meal kits and store recipe cards.</p>
+                        </div>
+
+                    </div>
+                    <div class="project-card">
+                        <a href="./project_pages/budget_visualiser.html" target="_blank">
+                            <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Budget Visualiser Server</h3>
+                            <p>A small back end designed to store budget pots and savings goals</p>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card">
+                        <a href="./project_pages/nc_games_server.html" target="_blank">
+                            <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2662&q=80"
+                                class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Northcoders Games Server</h3>
+                            <p>A psql api server built during a five day sprint while studying with Northcoders.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Consultation -->
+        <section class="home-page" id="consultation">
+            <div class="title-bar">
+                <div class="button-wrapper">
+                    <div class="title-button close"></div>
+                    <div class="title-button min"></div>
+                    <div class="title-button full"></div>
+                </div>
+
+                <div class="tabs">
+                    <a href="#home" class="tab">
+                        <h3 class="inactive">Home</h3>
+                    </a>
+                    <a href="#front-end" class="tab">
+                        <h3 class="inactive">Front End</h3>
+                    </a>
+                    <a href="#back-end" class="tab">
+                        <h3 class="inactive">Back End</h3>
+                    </a>
+                    <a href="#consultation" class="tab" id="active">
+                        <h3>Consultation</h3>
+                    </a>
+                    <a href="#about" class="tab">
+                        <h3 class="inactive">About</h3>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="window">
+                <h1>Consultation</h1>
+                <h3 class="subheader">A selection of projects where I consulted with local business about their websites
+                    and online presences</h3>
+                <div class="card-wrapper">
+                    <div class="project-card">
+                        <a href="https://www.successliesinmind.co.uk" target="_blank">
+                            <img src="./assets/slim-logo.JPG" class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Sucess Lies in Mind</h3>
+                            <p>A wordpress site for a local small business.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://transparenttrainingltd.co.uk/" target="_blank">
+                            <img src="assets/tpt.png" class="project-thumb" />
+                        </a>
+                        <div>
+                            <h3 class="project-header">Transparent Training Ltd</h3>
+                            <p>A wordpress site for a local small business.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- About -->
+        <section class="home-page" id="about">
+            <div class="title-bar">
+                <div class="button-wrapper">
+                    <div class="title-button close"></div>
+                    <div class="title-button min"></div>
+                    <div class="title-button full"></div>
+                </div>
+
+                <div class="tabs">
+                    <a href="#home" class="tab">
+                        <h3 class="inactive">Home</h3>
+                    </a>
+                    <a href="#front-end" class="tab">
+                        <h3 class="inactive">Front End</h3>
+                    </a>
+                    <a href="#back-end" class="tab">
+                        <h3 class="inactive">Back End</h3>
+                    </a>
+                    <a href="#consultation" class="tab">
+                        <h3 class="inactive">Consultation</h3>
+                    </a>
+                    <a href="#about" class="tab" id="active">
+                        <h3>About</h3>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="window">
+                <h1>About</h1>
+                <div class="home-card">
+                    <p>Based in the East Midlands I changed careers in 2021 from Software Training to become a Software
+                        Engineer. After attending, and graduating from the Northcoders bootcamp I subsequently joined
+                        their teaching team as an Engineer and Mentor to new students.<br><br>Since completing the
+                        bootcamp, I have continued to my learning to begin working in Python as a secondment to the Data
+                        Engineering Bootcamp.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </section>
+</body>
+
+</html>

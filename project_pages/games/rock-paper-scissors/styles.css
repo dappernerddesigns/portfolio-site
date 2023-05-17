@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 200px;
+  margin: 20px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  margin: auto;
+
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.play-area {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.hands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  margin: auto;
+}
+
+button {
+  padding: 6px;
+}
+
+#winner-text {
+  color: green;
+  font-size: 36px;
+  margin: 16px;
+}
+
+#winnerHand {
+  text-align: center;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}

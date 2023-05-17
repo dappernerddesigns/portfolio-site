@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+  background-color: var(--card-background);
+  color: var(--card-paragraph);
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 60px;
+}
+
+.hero-img {
+  width: 100%;
+  margin: auto;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.subheader {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  color: var(--page-subheader);
+}
+
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 1000px) {
+  #small-screen-hero {
+    display: none;
+  }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Nunito+Sans:wght@400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+
+    <link rel="stylesheet" href="../stylesheets/nav.css">
+    <script src="../scripts/app.js" defer></script>
+
+    <title>Dapper Nerd Designs</title>
+</head>
+<nav class="navigation" role="navigation">
+    <div class="main-menu">
+
+        <a href="../index.html">
+            <img src="/assets/DN-logo.svg" class="nav-logo" id="dnLogo" />
+            <h2>Dapper Nerd Designs</h2>
+        </a>
+        <a href="https://github.com/dappernerddesigns" target="_blank">
+            <img src="/assets/icons/green/githubIcon.svg" class="nav-icon" id="github-icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/verity-gregory/" target="_blank">
+            <img src="/assets/icons/green/linkedIn.svg" class="nav-icon" id="linkedIn-icon" />
+        </a>
+        <a href="mailto:dappernerd.designs@gmail.com?subject=Project enquiry">
+            <img src="/assets/icons/green/contact.svg" class="nav-icon" id="mail-icon" />
+        </a>
+    </div>
+    <div class="nav-links">
+
+        <a href="../index.html#front-end">
+            <h2>Front End</h2>
+        </a>
+        <a href="../index.html#back-end">
+            <h2>Back End</h2>
+        </a>
+
+        <a href="../index.html#consultation">
+            <h2>Consultation</h2>
+        </a>
+
+        <button class="random-btn" onClick="setRandomTheme()" aria-label="site theme randomiser"><img
+                src="/assets/icons/green/dice-solid.svg" id="dice-icon" /></button>
+    </div>
+
+    <div id="mobile-links">
+        <a href="../index.html#home" onclick="showMenu()">
+            <h3>Home</h3>
+        </a>
+
+        <a href="../index.html#front-end" onclick="showMenu()">
+            <h3>Front End</h3>
+        </a>
+        <a href="../index.html#back-end" onclick="showMenu()">
+            <h3>Back End</h3>
+        </a>
+
+        <a href="../index.html#consultation" onclick="showMenu()">
+            <h3>Consultation</h3>
+        </a>
+        <a href="../index.html#about" onclick="showMenu()">
+            <h3>About</h3>
+        </a>
+        <div class="mobile-icon-array">
+
+
+            <a href="https://github.com/dappernerddesigns" target="_blank">
+                <img src="/assets/icons/green/githubIcon.svg" class="nav-icon" id="github-icon-mobile" />
+            </a>
+            <a href="https://www.linkedin.com/in/verity-gregory/" target="_blank">
+                <img src="/assets/icons/green/linkedIn.svg" class="nav-icon" id="linkedIn-icon-mobile" />
+            </a>
+            <a href="mailto:dappernerd.designs@gmail.com?subject=Project enquiry">
+                <img src="/assets/icons/green/contact.svg" class="nav-icon" id="mail-icon-mobile" />
+            </a>
+        </div>
+    </div>
+    <div class="mobile-nav">
+        <button class="mobile-menu" onclick="showMenu()">
+            <img src="/assets/icons/green/menu.svg" id="mobile-menu" />
+        </button>
+        <a href="../index.html">
+
+            <img src="/assets/DN-logo.svg" class="nav-logo" id="dnLogoMobile" />
+        </a>
+        <button class="mobile-menu" onclick="setRandomTheme()" aria-label="site theme randomiser">
+            <img src="/assets/icons/green/dice-solid.svg" id="mobile-dice" />
+        </button>
+    </div>
+</nav>
+
+
+<body>
+
+
+
+    <main>
+
+        <h1>NC Games API</h1>
+        <h3 class="subheader">A complete CRUD application</h3>
+        <section class="home-page" id="home">
+            <div class="title-bar">
+                <div class="button-wrapper">
+                    <div class="title-button close"></div>
+                    <div class="title-button min"></div>
+                    <div class="title-button full"></div>
+                </div>
+
+
+
+            </div>
+            <div class="window">
+                <img src="../assets/nc-games-api.png" class="hero-img" />
+            </div>
+        </section>
+        <div class="wrapper">
+            <p class="blurb">A personal pr</p>
+            <a href="https://github.com/dappernerddesigns/budget-server" class="button" target="_blank">Source
+                Code</a>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

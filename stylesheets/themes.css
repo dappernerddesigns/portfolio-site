@@ -1,0 +1,199 @@
+:root,
+:root.green {
+    --menu-bg-col: #004643;
+    --menu-text: #fffffe;
+    --window-stroke: #001e1d;
+    --tab-active: #004643;
+    --tab-inactive: #abd1c6;
+    --tab-name-active: #fffffe;
+    --tab-name-inactive: #004643;
+    --window-background: #abd1c6;
+    --window-header: #001e1d;
+    --window-paragraph: #001e1d;
+    --card-background: #004643;
+    --card-header: #abd1c6;
+    --card-paragraph: #abd1c6;
+    --button-background: #f9bc60;
+    --button-text: #001e1d;
+    --page-main-background: #abd1c6;
+    --page-header: #004643;
+    --page-subheader: #004643;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-green.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-green.svg);
+}
+:root.pastel {
+    --menu-bg-col: #f3d2c1;
+    --menu-text: #001858;
+    --window-stroke: #001858;
+    --tab-active: #f582ae;
+    --tab-inactive: #abd1c6;
+    --tab-name-active: #fffffe;
+    --tab-name-inactive: #001858;
+    --window-background: #f3d2c1;
+    --window-header: #001858;
+    --window-paragraph: #001858;
+    --card-background: #fef6e4;
+    --card-header: #001858;
+    --card-paragraph: #172c66;
+    --button-background: #f582ae;
+    --button-text: #001858;
+    --page-main-background: #f3d2c1;
+    --page-header: #001858;
+    --page-subheader: #001858;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-pastel.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-pastel.svg);
+}
+:root.purple {
+    --menu-bg-col: #232946;
+    --menu-text: #fffffe;
+    --window-stroke: #121629;
+    --tab-active: #232946;
+    --tab-inactive: #d4d8f0;
+    --tab-name-active: #fffffe;
+    --tab-name-inactive: #232946;
+    --window-background: #d4d8f0;
+    --window-header: #232946;
+    --window-paragraph: #232946;
+    --card-background: #fffffe;
+    --card-header: #232946;
+    --card-paragraph: #172c66;
+    --button-background: #eebbc3;
+    --button-text: #232946;
+    --page-main-background: #d4d8f0;
+    --page-header: #232946;
+    --page-subheader: #232946;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-purple.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-purple.svg);
+}
+:root.candy-floss {
+    --menu-bg-col: #fec7d7;
+    --menu-text: #0e172c;
+    --window-stroke: #0e172c;
+    --tab-active: #a786df;
+    --tab-inactive: #d4d8f0;
+    --tab-name-active: #0e172c;
+    --tab-name-inactive: #232946;
+    --window-background: #fffffe;
+    --window-header: #232946;
+    --window-paragraph: #232946;
+    --card-background: #d9d4e7;
+    --card-header: #0e172c;
+    --card-paragraph: #0e172c;
+    --button-background: #a786df;
+    --button-text: #0e172c;
+    --page-main-background: #fffffe;
+    --page-header: #232946;
+    --page-subheader: #a786df;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-candyFloss.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-candyFloss.svg);
+}
+:root.autumn {
+    --menu-bg-col: #e58f65;
+    --menu-text: #191919;
+    --window-stroke: #d05353;
+    --tab-active: #d05353;
+    --tab-inactive: #d4d8f0;
+    --tab-name-active: #191919;
+    --tab-name-inactive: #232946;
+    --window-background: #f1e8b8;
+    --window-header: #191919;
+    --window-paragraph: #191919;
+    --card-background: #e58f65;
+    --card-header: #191919;
+    --card-paragraph: #191919;
+    --button-background: #d05353;
+    --button-text: #191919;
+    --page-main-background: #f1e8b8;
+    --page-header: #191919;
+    --page-subheader: #d05353;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-autumn.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-autumn.svg);
+}
+:root.liquorice {
+    --menu-bg-col: #612940;
+    --menu-text: #fdecef;
+    --window-stroke: #0f110c;
+    --tab-active: #9d6381;
+    --tab-inactive: #d4d8f0;
+    --tab-name-active: #fdecef;
+    --tab-name-inactive: #9d6381;
+    --window-background: #fdecef;
+    --window-header: #191919;
+    --window-paragraph: #191919;
+    --card-background: #612940;
+    --card-header: #fdecef;
+    --card-paragraph: #fdecef;
+    --button-background: #9d6381;
+    --button-text: #fdecef;
+    --page-main-background: #fdecef;
+    --page-header: #191919;
+    --page-subheader: #612940;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-liquorice.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-liquorice.svg);
+}
+
+:root.sage {
+    --menu-bg-col: #566246;
+    --menu-text: #d8dad3;
+    --window-stroke: #4a4a48;
+    --tab-active: #566246;
+    --tab-inactive: #d4d8f0;
+    --tab-name-active: #191919;
+    --tab-name-inactive: #566246;
+    --window-background: #a4c2a5;
+    --window-header: #4a4a48;
+    --window-paragraph: #4a4a48;
+    --card-background: #566246;
+    --card-header: #f1f2eb;
+    --card-paragraph: #f1f2eb;
+    --button-background: #a4c2a5;
+    --button-text: #f1f2eb;
+    --page-main-background: #a4c2a5;
+    --page-header: #4a4a48;
+    --page-subheader: #566246;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-sage.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-sage.svg);
+}
+
+:root.greys {
+    --menu-bg-col: #848c8e;
+    --menu-text: #f1f2ee;
+    --window-stroke: #435058;
+    --tab-active: #848c8e;
+    --tab-inactive: #d4d8f0;
+    --tab-name-active: #191919;
+    --tab-name-inactive: #232946;
+    --window-background: #bfb7b6;
+    --window-header: #435058;
+    --window-paragraph: #435058;
+    --card-background: #848c8e;
+    --card-header: #f1f2ee;
+    --card-paragraph: #f1f2ee;
+    --button-background: #dcf763;
+    --button-text: #435058;
+    --page-main-background: #bfb7b6;
+    --page-header: #435058;
+    --page-subheader: #435058;
+    --desktopBackground: url(../assets/backgrounds/bg-desktop-greys.svg);
+    --mobile-background: url(../assets/backgrounds/bg-mobile-greys.svg);
+}
+
+/* variables */
+/* {
+    --menu-bg-col
+    --menu-text
+    --window-stroke
+    --tab-active
+    --tab-inactive
+    --tab-name-active
+    --tab-name-inactive
+    --window-header
+    --window-paragraph
+    --card-background
+    --card-header
+    --card-paragraph
+    --button-background
+    --button-text
+    --page-main-background
+    --page-header
+} */

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 50vmin;
+  height: 50vmin;
+  margin: auto;
+
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.cell {
+  cursor: pointer;
+}
+.noClick {
+  pointer-events: none;
+}
+.thumb {
+  width: 80%;
+}
+
+.cell {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+#div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  border-right: 1vmin solid black;
+  border-left: 1vmin solid black;
+}
+#div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+#div4 {
+  grid-area: 2 / 1 / 3 / 2;
+  border-top: 1vmin solid black;
+  border-bottom: 1vmin solid black;
+}
+#div5 {
+  grid-area: 2 / 2 / 3 / 3;
+  border: 1vmin solid black;
+}
+#div6 {
+  grid-area: 2 / 3 / 3 / 4;
+  border-top: 1vmin solid black;
+  border-bottom: 1vmin solid black;
+}
+#div7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+#div8 {
+  grid-area: 3 / 2 / 4 / 3;
+  border-right: 1vmin solid black;
+  border-left: 1vmin solid black;
+}
+#div9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.hide {
+  display: none;
+}
+
+.play-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+
+  margin-top: 50px;
+}
+
+#restartBtn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  background-color: green;
+}
